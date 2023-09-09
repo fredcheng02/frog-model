@@ -2,7 +2,7 @@
 
 This repository contains code used to exactly compute and estimate the upper bounds to $S_m \coloneqq \sup_{d \geq m} p_d$ in the paper. We use SageMath in Jupyter Notebook for symbolic and numeric computation.
 
-To run the exact S_m finder, one also needs to install Mathematica on the computer, and set things up to call Mathematica function `CountRoots` within SageMath. To know how to do this please run `print(mathematica._install_hints())` in SageMath. This [documentation link](https://doc.sagemath.org/html/en/reference/interfaces/sage/interfaces/mathematica.html) can be helpful.
+To run `exact-S_m-finder.ipynb`, one also needs to install Mathematica on the computer, and set things up to call Mathematica function `CountRoots` within SageMath. To know how to do this please run `print(mathematica._install_hints())` in SageMath. This [documentation link](https://doc.sagemath.org/html/en/reference/interfaces/sage/interfaces/mathematica.html) can be helpful.
 
 For $2 \leq m \leq 13$ The exact bounds are listed in the table below.
 
