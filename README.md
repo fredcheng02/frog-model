@@ -21,4 +21,4 @@ For $2 \leq m \leq 13$ The exact bounds are listed in the table below.
 |    12     | 7/34     | Cell 3    |
 |    13     | 11/54    | Cell 3    |
 
-Due to the precision limitation of `find_root` in SageMath (which uses Brent's method), the technique developed to compute exact upper bounds to $S_m$ cannot go beyond $m = 13$. However, with the distribution of $U(d)$ in hand and some additional observations, we may approximate the upper bounds to $S_m$ numerically for arbitrarily high $m$'s.
+Due to the precision limitation of `find_root` in SageMath (which uses Brent's method), the technique developed to compute exact upper bounds to $S_m$ cannot go beyond $m = 13$. However, with the distribution of $U(d)$ in hand and some additional observations, we may approximate the upper bounds to $S_m$ numerically for arbitrarily high $m$.
