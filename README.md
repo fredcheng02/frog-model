@@ -7,7 +7,7 @@ To run `exact-Sm-bound-finder.ipynb`, one also needs to install Mathematica on t
 For $2 \leq m \leq 13$ The exact bounds are listed in the table below.
 
 |     $m$   |$S_m \leq$| $\max g(y) \approx$ |
-|:----------|:---------|:----------|
+|:----------:|:---------:|:----------:|
 |     2     | 55/159   | Cell 3    |
 |     3     | 42/145   | Cell 3    |
 |     4     | 40/153   | Cell 3    |
