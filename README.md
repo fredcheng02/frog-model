@@ -9,20 +9,16 @@ For $2 \leq m \leq 13$ The exact bounds are listed in the table below. If you ru
 |     $m$   |$S_m \leq$|
 |:---------:|:--------:|
 |     2     | 55/159   |
-|     3     | 42/145   | Cell 3    |
-|     4     | 40/153   | Cell 3    |
-|     5     | 23/94    | Cell 3    |
-|     6     | 46/197   | Cell 3    |
-|     7     | 23/102   | Cell 3    |
-|     8     | 38/173   | Cell 3    |
-|     9     | 20/93    | Cell 3    |
-|    10     | 15/71    | Cell 3    |
-|    11     | 5/24     | Cell 3    |
-|    12     | 7/34     | Cell 3    |
-|    13     | 11/54    | Cell 3    |
+|     3     | 42/145   |
+|     4     | 40/153   |
+|     5     | 23/94    |
+|     6     | 46/197   |
+|     7     | 23/102   |
+|     8     | 38/173   |
+|     9     | 20/93    |
+|    10     | 15/71    |
+|    11     | 5/24     |
+|    12     | 7/34     |
+|    13     | 11/54    |
 
-
-| $m$ | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 |
-| $S_m \leq$ | 55/159 | 42/145 | 40/153 | 23/94 | 46/197 | 23/102 | 38/173| 20/93 | 15/71 | 5/24 | 7/34 | 11/54 |
-
-Due to the precision limitation of `find_root` in SageMath (which uses Brent's method), the technique developed to compute exact upper bounds to $S_m$ cannot go beyond $m = 13$. However, with the distribution of $U(m)$ in hand and some additional observations, we may approximate the upper bounds to $S_m$ numerically for arbitrarily high $m$. See the 
+Due to the precision limitation of `find_root` in SageMath (which uses Brent's method), the technique developed to compute exact upper bounds to $S_m$ cannot go beyond $m = 13$. However, with the distribution of $U(m)$ in hand and some additional observations, we may approximate the upper bounds to $S_m$ numerically for arbitrarily high $m$. See the code and explanantion in `approx-Sm-bound-finder.ipynb` for detail.
