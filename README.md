@@ -22,3 +22,7 @@ For $2 \leq m \leq 13$ The exact bounds are listed in the table below. If you ru
 |    13     | 11/54    |
 
 Due to the precision limitation of `find_root` in SageMath (which uses Brent's method), the technique developed to compute exact upper bounds to $S_m$ cannot go beyond $m = 13$. However, with the distribution of $U(m)$ in hand and some additional observations, we may approximate the upper bounds to $S_m$ numerically for arbitrarily high $m$. See the code and explanantion in `approx-Sm-bound-finder.ipynb` for detail.
+
+See the plot below for the overall trend of these upper bounds on $S_m$.
+
+![](https://github.com/fredcheng02/frog-model/blob/main/plot_of_upper_bounds.png?raw=true)
