@@ -25,6 +25,6 @@ Due to the precision limitation of `find_root` in SageMath (which uses Brent's m
 
 See the plot below for the overall trend of these upper bounds on $S_m$.
 
-![](https://github.com/fredcheng02/frog-model/blob/main/plot_of_upper_bounds.png?raw=true)
+![](https://github.com/fredcheng02/frog-model/blob/main/plot_of_upper_bounds_git.png?raw=true)
 
 Using the method introduced in `approx-Sm-bound-finder.ipynb`, we observe that $q_d$ (introduced in the paper) becomes approximately less than 1.8 for the first time when $d = 230$. The rate of convergence of $q_d$ (introduced in the paper) is really slow.
